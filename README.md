@@ -3,7 +3,7 @@ About terraform-provider-cobbler
 
 Home: https://www.terraform.io
 
-Package license: MPL 2.0
+Package license: MPL-2.0
 
 Feedstock license: BSD 3-Clause
 
@@ -15,14 +15,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Appveyor</td>
-    <td>
-      <a href="https://ci.appveyor.com/project/conda-forge/terraform-provider-cobbler-feedstock/branch/master">
-        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/terraform-provider-cobbler-feedstock/master.svg?label=Windows">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>

@@ -21,7 +21,7 @@ source:
 
 
 build:
-  number: 1
+  number: 2
   script:
     - pushd {{ pkg_src }}
     - go build -v -o $GOBIN/{{ x4_plugin }} .  # [unix]
@@ -49,7 +49,7 @@ test:
 
 about:
   home: https://www.terraform.io
-  license: MPL 2.0
+  license: MPL-2.0
   summary: The Terraform {{ provider }} provider
   doc_url: https://www.terraform.io/docs/providers/{{ provider|lower }}/index.html
   dev_url: https://github.com/terraform-providers/{{ name }}
